@@ -14,6 +14,16 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">    </head>
     <body>
         @include('components.navbar')
+        <div class="container position-relative">
+            <img src="https://avatars.githubusercontent.com/u/110927988?v=4" class="img-fluid w-100 mt-3" alt="Banner" style="object-fit: cover; height: 300px;">
+            <img src="https://avatars.githubusercontent.com/u/110927988?v=4" class="img-thumbnail position-absolute" alt="Perfil" style="top: 150px; left: 20px; width: 200px; height: auto;">
+        </div>
+        <div class="container mt-5">
+            <h3>
+                Vinícius de Senna
+                <small class="text-body-secondary">The Creator</small>
+            </h3>
+        </div>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
