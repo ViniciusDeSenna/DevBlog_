@@ -35,14 +35,21 @@
                 </div>
             </div>
         </div>
-        <div class="container mt-3">
+        <div class="container mt-5">
             <div class="card">
-                <div class="card-header"></div>
-                <div class="card-body"></div>
-                <div class="card-footer"></div>
-            </div>
-            <div id="editor" style="margin: 50px 0;" class="border">
-                <p>Hello, <strong>World</strong></p>
+                <div class="card-body" id="editor"></div>
+                <div class="card-footer">
+                    <div class="d-flex flex-row-reverse">
+                        <div>
+                            <button type="button" class="btn btn-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                                    <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"></path>
+                                </svg>
+                                Publicar
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- Include the Quill library -->
@@ -52,7 +59,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
         <script>
             const quill = new Quill('#editor', {
-                placeholder: 'Compose an epic...',
+                placeholder: 'Escreva o que você está pensando...',
                 theme: 'bubble',
             });
         </script>
